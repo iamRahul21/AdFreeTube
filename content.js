@@ -60,7 +60,7 @@
                     opacity: 0.7;
                     display: inline-block;
                 `;
-                indicator.title = 'Will be redirected by AdFreeTube';
+                indicator.title = 'Will be redirected by yout-ube';
                 
                 const linkText = link.querySelector('span#video-title, h3, .title');
                 if (linkText && !linkText.querySelector('.adfree-indicator')) {
