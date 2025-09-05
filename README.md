@@ -1,6 +1,6 @@
 <div align="center">
 
-# AdFreeTube
+# yout-ube
 
 <em>A Chrome extension that redirects YouTube video links to yout-ube.com for an ad-free viewing experience.</em>
 
@@ -25,13 +25,13 @@
    - Click the green "Code" button on this GitHub repository
    - Select "Download ZIP" to download the repository as a ZIP file
    - Extract the ZIP file to a folder on your computer
-   - Alternatively, clone the repository using: `git clone https://github.com/iamRahul21/AdFreeTube.git`
+   - Alternatively, clone the repository using: `git clone https://github.com/iamRahul21/yout-ube.git`
 
 2. **Load Extension in Chrome**:
    - Open Chrome and navigate to `chrome://extensions/`
    - Enable "Developer mode" in the top right corner
-   - Click "Load unpacked" and select the extracted AdFreeTube folder
-   - The AdFreeTube extension will appear in your extensions list
+   - Click "Load unpacked" and select the extracted `yout-ube` folder
+   - The yout-ube extension will appear in your extensions list
 
 ## Usage
 
