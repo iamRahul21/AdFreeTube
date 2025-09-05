@@ -80,7 +80,9 @@
         }
         
         .footer {
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             font-size: 12px;
             color: #999;
             margin-top: 20px;
@@ -90,7 +92,6 @@
 <body>
     <div class="header">
         <div class="logo">AdFreeTube</div>
-        <div class="subtitle">YouTube Redirector</div>
     </div>
     
     <div class="status active">
@@ -98,17 +99,19 @@
         <div class="status-dot"></div>
     </div>
     
-    <div class="info">
-        <h3>How it works:</h3>
-        <p>Click any YouTube video link and it will automatically redirect to yout-ube.com in a new tab.</p>
-        <div class="example">
-            <strong>From:</strong> youtube.com/watch?v=VIDEO_ID<br>
-            <strong>To:</strong> yout-ube.com/watch?v=VIDEO_ID
-        </div>
-    </div>
-    
     <div class="footer">
-        Version 1.0.0
+        <span style="vertical-align: middle;">V1.2.0</span>
+        <a
+            href="https://rahul-deka.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Author: Rahul Deka"
+            style="vertical-align: middle; display: inline-block; color: #999; text-decoration: none;"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="vertical-align: middle;">
+                <path d="M12 12c2.7 0 4.5-1.8 4.5-4.5S14.7 3 12 3 7.5 4.8 7.5 7.5 9.3 12 12 12zm0 1.5c-3 0-9 1.5-9 4.5V21h18v-3c0-3-6-4.5-9-4.5z"/>
+            </svg>
+        </a>
     </div>
     <!-- update always -->
 </body>
