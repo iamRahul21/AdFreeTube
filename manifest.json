@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "AdFreeTube",
+  "version": "1.0.0",
+  "description": "Redirects YouTube videos to yout-ube.com for an ad-free experience",
+  
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AdFreeTube",
+    "default_icon": "green-circle-svgrepo-com.png"
+  },
+  
+  "icons": {
+    "16": "green-circle-svgrepo-com.png",
+    "32": "green-circle-svgrepo-com.png",
+    "48": "green-circle-svgrepo-com.png",
+    "128": "green-circle-svgrepo-com.png"
+  }
+}

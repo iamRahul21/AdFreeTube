@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff0000;
+            margin-bottom: 5px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .info {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .info h3 {
+            margin: 0 0 10px 0;
+            color: #333;
+            font-size: 16px;
+        }
+        
+        .info p {
+            margin: 0;
+            color: #666;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        
+        .status {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 15px;
+            background: #e8f5e8;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        
+        .status.active {
+            background: #e8f5e8;
+            color: #2d5a2d;
+        }
+        
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #4caf50;
+        }
+        
+        .example {
+            font-size: 12px;
+            color: #888;
+            word-break: break-all;
+            background: #f9f9f9;
+            padding: 8px;
+            border-radius: 4px;
+            margin-top: 8px;
+        }
+        
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">AdFreeTube</div>
+        <div class="subtitle">YouTube Redirector</div>
+    </div>
+    
+    <div class="status active">
+        <span>Extension Active</span>
+        <div class="status-dot"></div>
+    </div>
+    
+    <div class="info">
+        <h3>How it works:</h3>
+        <p>Click any YouTube video link and it will automatically redirect to yout-ube.com in a new tab.</p>
+        <div class="example">
+            <strong>From:</strong> youtube.com/watch?v=...<br>
+            <strong>To:</strong> yout-ube.com/watch?v=...
+        </div>
+    </div>
+    
+    <div class="footer">
+        Version 1.0.0
+    </div>
+    <!-- update always -->
+</body>
+</html>
