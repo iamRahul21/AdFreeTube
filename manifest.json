@@ -24,13 +24,13 @@
   "action": {
     "default_popup": "popup.html",
     "default_title": "AdFreeTube",
-    "default_icon": "green-circle-svgrepo-com.png"
+    "default_icon": "icon.png"
   },
   
   "icons": {
-    "16": "green-circle-svgrepo-com.png",
-    "32": "green-circle-svgrepo-com.png",
-    "48": "green-circle-svgrepo-com.png",
-    "128": "green-circle-svgrepo-com.png"
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
   }
 }
