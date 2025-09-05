@@ -42,7 +42,7 @@
 ## Files Structure
 
 ```
-AdFreeTube/
+yout-ube/
 ├── manifest.json       # Extension configuration
 ├── content.js          # Main functionality script
 ├── popup.html          # Extension popup interface
