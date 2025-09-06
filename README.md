@@ -1,6 +1,6 @@
 <div align="center">
 
-# yout-ube
+# yout-ube ![GitHub repo size](https://img.shields.io/github/repo-size/iamRahul21/yout-ube?label=size)
 
 <em>A Chrome extension that redirects YouTube video links to yout-ube.com for an ad-free viewing experience.</em>
 
@@ -67,7 +67,3 @@ function convertYouTubeUrl(url) {
     return url.replace(/youtube\.com/g, 'yout-ube.com');
 }
 ```
-
-## Version History
-
-- **1.0.0**: Initial release with working redirect functionality
