@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "yout-ube",
-  "version": "1.2.0",
-  "description": "Redirects YouTube videos to yout-ube.com for an ad-free experience",
+  "name": "AdFreeTube",
+  "version": "1.2.1",
+  "description": "A Chrome extension for ad-free YouTube viewing that prevents algorithm manipulation and protects your privacy.",
   
   "permissions": [
     "tabs",
@@ -23,7 +23,7 @@
   
   "action": {
     "default_popup": "popup.html",
-    "default_title": "yout-ube",
+    "default_title": "AdFreeTube",
     "default_icon": "icon.png"
   },
   

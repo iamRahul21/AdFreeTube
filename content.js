@@ -1,12 +1,12 @@
 (function() {
     'use strict';
 
-    console.log('yout-ube extension loaded');
+    console.log('AdFreeTube extension loaded');
 
     function convertYouTubeUrl(url) {
         if (!url) return url;
         
-        // Replaces youtube.com with yout-ube.com
+        // Redirection
         return url.replace(/youtube\.com/g, 'yout-ube.com');
     }
     
@@ -50,7 +50,7 @@
         videoLinks.forEach(link => {
             if (!link.dataset.adFreeModified) {
                 link.dataset.adFreeModified = 'true';
-                link.title = `yout-ube: Will redirect to ${convertYouTubeUrl(link.href)}`;
+                link.title = `AdFreeTube: Will redirect to ${convertYouTubeUrl(link.href)}`;
                 
                 const indicator = document.createElement('span');
                 indicator.innerHTML = '🚀';
@@ -60,7 +60,7 @@
                     opacity: 0.7;
                     display: inline-block;
                 `;
-                indicator.title = 'Will be redirected by yout-ube';
+                indicator.title = 'Will be redirected by AdFreeTube';
                 
                 const linkText = link.querySelector('span#video-title, h3, .title');
                 if (linkText && !linkText.querySelector('.adfree-indicator')) {
