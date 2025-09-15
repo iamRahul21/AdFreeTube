@@ -30,7 +30,7 @@ A Chrome extension that liberates your YouTube viewing from ads, algorithm manip
 
 ### Method 2: Git Clone
 ```bash
-git clone https://github.com/iamRahul21/AdFreeTube.git
+git clone https://github.com/rahul-deka/AdFreeTube.git
 cd AdFreeTube
 # Follow steps 3-4 from Method 1
 ```
@@ -66,8 +66,8 @@ cd AdFreeTube
 - **Storage**: < 100KB disk space
 
 ## Useful Links
-- **Repository**: [GitHub - AdFreeTube](https://github.com/iamRahul21/AdFreeTube)
-- **Issues**: [Report Bugs](https://github.com/iamRahul21/AdFreeTube/issues)
+- **Repository**: [GitHub - AdFreeTube](https://github.com/rahul-deka/AdFreeTube)
+- **Issues**: [Report Bugs](https://github.com/rahul-deka/AdFreeTube/issues)
 - **Info Site**: [AdFreeTube - Site](https://adfree-tube.vercel.app/)
 - **Author**: [Rahul Deka](https://rahul-deka.vercel.app/)
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# AdFreeTube ![GitHub repo size](https://img.shields.io/github/repo-size/iamRahul21/AdFreeTube?label=size)
+# AdFreeTube ![GitHub repo size](https://img.shields.io/github/repo-size/rahul-deka/AdFreeTube?label=size)
 
 <em>A Chrome extension for ad-free YouTube viewing that prevents algorithm manipulation and protects your privacy.</em>
 
@@ -27,7 +27,7 @@
    - Click the green "Code" button on this GitHub repository
    - Select "Download ZIP" to download the repository as a ZIP file
    - Extract the ZIP file to a folder on your computer
-   - Alternatively, clone the repository using: `git clone https://github.com/iamRahul21/AdFreeTube.git`
+   - Alternatively, clone the repository using: `git clone https://github.com/rahul-deka/AdFreeTube.git`
 
 2. **Load Extension in Chrome**:
    - Open Chrome and navigate to `chrome://extensions/`
